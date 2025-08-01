@@ -24,10 +24,6 @@ Ensure you have the following hardware and software installed:
 
 * **Python 3.8+**
 
-* **Dobot Magician** robotic arm
-
-* **DobotStudio** or a similar Dobot control software
-
 * **USB Camera** compatible with OpenCV
 
 * A machine with **CUDA** support for GPU acceleration (recommended)
