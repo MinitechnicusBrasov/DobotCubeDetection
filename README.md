@@ -8,13 +8,10 @@ This system provides a robust solution for tasks like cube manipulation, automat
 
 ## ✨ Features
 
-* **Instance Segmentation:** Uses a pre-trained Mask R-CNN model to accurately detect and segment Rubik's Cubes in a live camera feed.
+* **Instance Segmentation:** Uses a pre-trained Mask R-CNN model to accurately detect and segment Colored Cubes in a live camera feed.
 
 * **Camera-to-Robot Calibration:** Employs homography to calculate a transformation matrix, enabling the seamless conversion of 2D pixel coordinates to 3D robot workspace coordinates.
 
-* **Modular Architecture:** Designed with separate modules for model transformations, inference utilities, and the main application logic, making the code easy to understand and extend.
-
-* **Custom Loss Calculation:** Includes a custom `eval_forward` function to calculate and log losses during validation, which is essential for model training and debugging.
 
 ## 🚀 Getting Started
 
